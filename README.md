@@ -1,2 +1,3 @@
 # Github Finder app
-From Travis course 'React Front to Back'
+
+From Brad Traversy course 'React Front to Back'

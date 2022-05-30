@@ -1,6 +1,6 @@
 import { useContext} from 'react'
 import Spinner from '../layouts/Spinner'
-import UserItem from './UserItem';
+import UserItem from '../users/UserItem'
 import GithubContext from '../../context/github/GithubContext';
 
 function UserResults() {
@@ -13,6 +13,7 @@ function UserResults() {
                     <UserItem key={user.id} user={user} />
                 ))}    
             </div>
+            
           )
     } else {
         return <Spinner />
